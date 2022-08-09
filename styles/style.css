@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&display=swap");
+body {
+  margin: 5%;
+  padding: 0;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#292631), to(#48455a));
+  background-image: linear-gradient(to top, #292631, #48455a);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+body .grid {
+  display: -ms-grid;
+  display: grid;
+  gap: 1.5rem;
+}
+
+body .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .info img {
+  height: 40px;
+  border-radius: 50%;
+}
+
+body .info .name-graduate {
+  margin-left: 10px;
+  display: block;
+}
+
+body .info .name-graduate .name {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+body .info .name-graduate .verified {
+  margin-top: 0;
+}
+
+body .card h1 {
+  margin-top: 0;
+}
+
+body .daniel {
+  padding: 0 20px 20px 20px;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#733fc8), to(#9359ad));
+  background-image: linear-gradient(to top left, #733fc8, #9359ad);
+  color: #ba91f7;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .daniel .info img {
+  border: 3px #a77dd3 solid;
+}
+
+body .daniel .quotes-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .daniel .quotes-div .quotes {
+  position: absolute;
+  z-index: 1;
+}
+
+body .daniel h1 {
+  color: #fff;
+  position: relative;
+  z-index: 2;
+}
+
+body .daniel:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+body .jonathan {
+  padding: 20px;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#49556b), to(#7997b1));
+  background-image: linear-gradient(to top left, #49556b, #7997b1);
+  color: #c5cedd;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .jonathan .info img {
+  border: 3px #fff solid;
+}
+
+body .jonathan h1 {
+  color: #fff;
+}
+
+body .jonathan:hover {
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+}
+
+body .jeanette {
+  padding: 20px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#7b8194));
+  background-image: linear-gradient(to bottom right, #fff, #7b8194);
+  color: #c5cedd;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .jeanette .info .name {
+  color: #515560;
+}
+
+body .jeanette .info img {
+  border: 3px #b4b3b8 solid;
+}
+
+body .jeanette h1 {
+  color: #4f535e;
+}
+
+body .jeanette p {
+  color: #8a8e91;
+}
+
+body .jeanette:hover {
+  -webkit-transform: translateX(-20px);
+          transform: translateX(-20px);
+}
+
+body .patrick {
+  padding: 20px;
+  background: #18202d;
+  background-image: -webkit-gradient(linear, right bottom, left top, from(#18202d), to(#385a62));
+  background-image: linear-gradient(to top left, #18202d, #385a62);
+  color: #c5cedd;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .patrick .info .name {
+  color: #fff;
+}
+
+body .patrick .info img {
+  border: 3px #a77dd3 solid;
+}
+
+body .patrick h1 {
+  color: #fff;
+}
+
+body .patrick p {
+  color: #b0b4bf;
+}
+
+body .patrick:hover {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+}
+
+body .kira {
+  padding: 20px;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#fff), to(#7b8194));
+  background-image: linear-gradient(to bottom right, #fff, #7b8194);
+  color: #c5cedd;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+body .kira .info .name {
+  color: #4f535e;
+}
+
+body .kira .info img {
+  border: 3px #b4b3b8 solid;
+}
+
+body .kira h1 {
+  color: #4f535e;
+}
+
+body .kira p {
+  color: #4f535e;
+}
+
+body .kira:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+@media (min-width: 50em) {
+  body {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
+  body .grid-col-span-2 {
+    grid-column: span 2;
+  }
+  body .kira {
+    -ms-grid-column: 4;
+        grid-column-start: 4;
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / span 2;
+  }
+  body .kira .testimonial {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
